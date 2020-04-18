@@ -10,6 +10,7 @@ Funcionalidades avançadas - Semana OmniStack 11.0.mp4
 # Created by https://www.gitignore.io/api/node,react,visualstudiocode
 # Edit at https://www.gitignore.io/?templates=node,react,visualstudiocode
 
+db.sqlite
 ### Node ###
 # Logs
 logs
@@ -71,6 +72,8 @@ typings/
 
 # Output of 'npm pack'
 *.tgz
+
+
 
 # Yarn Integrity file
 .yarn-integrity
@@ -141,3 +144,4 @@ sketch
 .history
 
 # End of https://www.gitignore.io/api/node,react,visualstudiocode
+Backend/src/database/db.sqlite
